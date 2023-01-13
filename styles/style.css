@@ -3,6 +3,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
 }
 
 main {
@@ -25,6 +26,45 @@ hr {
 }
 a {
     text-decoration: none;
+}
+/* ------------------ Header Style -------------------------- */
+
+header {
+    background-color: #562EFF;
+    height: 94px;
+    display: flex;
+    width: 100%;
+    gap: 520px;
+    justify-content: center;
+}
+.idea-section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.idea-title {
+    font-size: 24px;
+    color: white;
+}
+.nav-and-profile {
+    display: flex;
+    align-items: center;
+}
+.nav-and-profile ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-and-profile ul li {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    list-style: none;
+}
+.nav-and-profile img {
+    height: 51px;
+    width: 51px;
+    margin-left: 36px;
 }
 
 /* ------------------ Top players style ----------------------*/
@@ -151,6 +191,16 @@ span {
         align-items: center;
         flex-direction: column;
     }
+    header {
+        height: 94px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 0;
+    }
+    /* main {
+        display: none;
+    } */
 }
 /* Tablet Devices */
 
