@@ -198,9 +198,12 @@ span {
         justify-content: center;
         gap: 0;
     }
-    /* main {
-        display: none;
-    } */
+    .nav-and-profile img {
+        margin-left: 26px;
+    }
+    .idea-section {
+        margin-left: 10px;
+    }
 }
 /* Tablet Devices */
 
