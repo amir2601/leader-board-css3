@@ -72,6 +72,10 @@ a {
     display: flex;
     align-items: flex-end;
 }
+.blog .thumbnail {
+    height: 117px;
+    width: 177px;
+}
 
 .blog-info {
     margin-left: 16px;
@@ -131,4 +135,35 @@ span {
 }
 .empty {
     color: #AEAEAE;
+}
+
+/* Media Query */
+
+/* Mobile Devices */
+@media only screen and (max-width: 688px) {
+    .container {
+        width: 100%;
+    }
+    .players, .blogs, .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .blogs  {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+/* Tablet Devices */
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+    .players, .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player, .blogs  {
+        align-items: center;
+        flex-direction: column;
+    }
+
 }
